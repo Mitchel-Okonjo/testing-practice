@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+    <link rel="stylesheet" href="./media.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Journey in Altschool cloud engineering</h1>
+    </header>
+
+    <section id="section1">
+      <h2>Who Am I?</h2>
+      <p>
+        I am a graduate of Electrical Engineering with a passion for coding and
+        technology. Currently, I am pursuing a program in Cloud Engineering,
+        aspiring to become a DevOps Engineer. My journey is driven by a deep
+        interest in building and automating the infrastructure of the future.
+      </p>
+    </section>
+
+    <section id="section2">
+      <h2>Responsive Image Gallery</h2>
+      <picture>
+        <!-- For mobile devices -->
+        <source media="(max-width: 600px)" srcset="./images1/third.jpeg" />
+        <!-- For tablets -->
+        <source
+          media="(min-width: 601px) and (max-width: 1024px)"
+          srcset="./images1/second.jpeg"
+        />
+        <!-- For laptops and desktops -->
+        <source media="(min-width: 1025px)" srcset="./images1/first.jpeg" />
+        <!-- Fallback image -->
+        <img
+          src="./images1/fourth.jpg"
+          alt="My Engineering and DevOps Journey"
+        />
+      </picture>
+      <p>
+        This image represents my evolution in web development. The journey has
+        been challenging yet rewarding.
+      </p>
+    </section>
+
+    <section id="section3">
+      <h2>My Work</h2>
+      <div class="image-gallery">
+        <img src="./images1/fifth.jpeg" alt="Project 1" />
+        <img src="./images1/sixth.jpeg" alt="Project 2" />
+      </div>
+      <p>
+        These images showcase some of the projects I've worked on. They reflect
+        my growth and development in frontend development.
+      </p>
+    </section>
+
+    <section id="section4">
+      <h2>My Vision</h2>
+      <video controls>
+        <source src="./videos/video.mov" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p>
+        Watch this video to understand my vision for the future of technology
+        and how I plan to contribute as a DevOps Engineer.
+      </p>
+    </section>
+
+    <section id="section5">
+      <h2>Listen to My Story</h2>
+      <audio controls>
+        <source src="audio/story.mp3" type="audio/mp3" />
+        <source src="audio/story.ogg" type="audio/ogg" />
+        Your browser does not support the audio element.
+      </audio>
+      <p>
+        Listen to a brief audio clip where I share more about my journey,
+        challenges, and aspirations.
+      </p>
+    </section>
+
+    <footer>
+      <p>Thank you for visiting! Let's build the future together.</p>
+    </footer>
+  </body>
+</html>

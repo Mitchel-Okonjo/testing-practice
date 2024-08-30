@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <!-- Left side of page -->
+    <div id="left-page">
+      <div>
+        <img src="./images/altschool_form.png" alt="" class="lhs-image" />
+      </div>
+      <h1 class="lhs-big-text">
+        Learn highly sought<br />after skills without<br />hassle
+      </h1>
+      <footer>
+        <div class="social-media-icons">
+          <a href="#">
+            <img
+              src="./images/twitter.png"
+              alt="Twitter Icon"
+              class="icon socials"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./images/instagram.png"
+              alt="Instagram Icon"
+              class="icon socials"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./images/facebook.png"
+              alt="Facebook Icon"
+              class="icon socials"
+            />
+          </a>
+          <a href="#">
+            <img
+              src="./images/linkedin.png"
+              alt="LinkedIn Icon"
+              class="icon socials"
+            />
+          </a>
+        </div>
+        <div class="tel">Tel: 0800ALTSCHOOL</div>
+        <div class="copyright">
+          ©2024 AltSchool Africa. All rights reserved.
+        </div>
+      </footer>
+    </div>
+    <!-- Right side of page -->
+    <div id="right-page">
+      <p class="sign-in-comment">
+        Already an AltSchooler? <a href="#" class="rhs-top-link">Sign In!</a>
+      </p>
+      <section class="signup-form">
+        <h2 class="signup-form-header">Signup</h2>
+        <h4>Take the next steps to apply at AltSchool Africa</h4>
+        <form action="#">
+          <div>
+            <div>
+              <label for="first_name">First Name </label>
+              <input
+                id="first_name"
+                type="text"
+                name="first_name"
+                placeholder="Enter first name"
+              />
+            </div>
+            <div>
+              <label for="last_name">Last Name</label>
+              <input
+                type="text"
+                id="last_name"
+                name="last_name"
+                placeholder="Enter last name"
+              />
+            </div>
+          </div>
+          <div>
+            <div>
+              <label for="gender">Gender</label>
+              <select name="gender_options" id="gender">
+                <option value="" disabled selected hidden>Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div>
+              <label for="dob">Date of Birth</label>
+              <input type="date" id="dob" name="date" />
+            </div>
+          </div>
+          <div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="text" placeholder="Enter email address" />
+            </div>
+            <div>
+              <label for="phone_number">Phone Number</label>
+              <input
+                type="number"
+                id="phone_number"
+                placeholder="08154387000"
+              />
+            </div>
+          </div>
+          <div>
+            <div>
+              <label for="country">Country</label>
+              <input
+                id="country"
+                type="text"
+                placeholder="Select your country"
+              />
+            </div>
+            <div>
+              <label for="state">State/City of Residence</label>
+              <input
+                type="text"
+                id="state"
+                placeholder="Enter your state of residence"
+              />
+            </div>
+          </div>
+          <div>
+            <div>
+              <label for="publicity">How did you hear about us?</label>
+              <select name="publicity" id="publicity">
+                <option value="" disabled selected hidden>
+                  Select an option
+                </option>
+                <option value="option1">Twitter</option>
+                <option value="option2">Facebook</option>
+                <option value="option3">Instagram</option>
+                <option value="option4">LinkedIn</option>
+                <option value="option5">YouTube</option>
+                <option value="option6">Friend</option>
+                <option value="option7">WhatsApp</option>
+                <option value="option8">Bill Board</option>
+                <option value="option9">Other</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div>
+              <label for="password">Password</label>
+              <input
+                id="password"
+                type="password"
+                placeholder="Enter password"
+              />
+            </div>
+            <div>
+              <label for="confirm_password">Confirm Password</label>
+              <input
+                type="password"
+                id="phone_number"
+                placeholder="Enter password again"
+              />
+            </div>
+          </div>
+          <div>
+            <h4>
+              By clicking ocntinue, I agree to
+              <a href="#" class="rhs-bottom-link">Terms of Use</a> and
+              acknowledge that I have read the
+              <a href="#" class="rhs-bottom-link">Privacy Policy</a>
+            </h4>
+          </div>
+          <div>
+            <button type="submit">
+              Submit
+              <img
+                src="./images/right-arrow.png"
+                alt="Right arrow icon"
+                id="submit-icon"
+              />
+            </button>
+          </div>
+        </form>
+      </section>
+      <div id="chat">
+        <img src="./images/chat.png" alt="Chat box" class="chat-box" />
+      </div>
+    </div>
+  </body>
+</html>

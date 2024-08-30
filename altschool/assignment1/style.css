@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --nav-color: #1f2937;
+  --bg-image: url(./images/bg1.jpg);
+  --section-color: #f1f5f9;
+  --info-bg-color: #f3f4f6;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2rem;
+  color: #f8fafc;
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav > * {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem;
+}
+
+#top > * {
+  float: right;
+}
+
+#top,
+#bottom {
+  background-color: #1f2937;
+}
+#bottom > * {
+  justify-content: center;
+}
+
+#section2,
+#section3,
+#section4 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 5rem;
+  margin-top: 4rem;
+  width: 150rem;
+  align-self: center;
+}
+
+p:nth-child(2) {
+  background-color: var(--section-color);
+  padding: 5rem 15rem;
+  color: black;
+  border-radius: 3rem;
+  line-height: 2;
+}
+
+#section4 {
+  margin-bottom: 4rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+.form-link {
+  background-color: ;
+}
+
+#section1 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.5rem;
+}
+
+.section-header {
+  text-align: center;
+  font-size: 4rem;
+}
